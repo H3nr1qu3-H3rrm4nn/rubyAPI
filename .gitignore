@@ -17,4 +17,8 @@ node_modules
 *.log
 .DS_Store
 .byebug_history
+/storage/*
 
+# /*
+# !/spec
+!/db/seeds.rb
