@@ -24,6 +24,10 @@ Rode a suíte de testes para verificar se tudo está funcionando corretamente:
 ```bash
 rspec
 ```
+# Documentação e Guias
+
+1. [Ruby](https://www.ruby-lang.org/pt/) 
+2. [Ruby On Rails](https://guides.rubyonrails.org/v7.1/)
 
 # Endpoints
 
