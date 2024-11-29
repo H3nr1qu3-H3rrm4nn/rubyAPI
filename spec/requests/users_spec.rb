@@ -6,7 +6,6 @@ RSpec.describe "Users", type: :request do
   describe "GET /index" do
     it "returns http success" do
       get users_path, as: :json
-
       expect(response).to have_http_status(:success)
       expect(response.parsed_body.size).to eq(3)
       expect(response.parsed_body.map { |user| user['id'] }).to match_array(users.map(&:id))

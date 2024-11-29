@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://super-funicular-r4gp7x6wgrg6f5jj4-3000.app.github.dev/";
 
 // Carrega os usuários ao carregar a página
 document.addEventListener("DOMContentLoaded", () => {
